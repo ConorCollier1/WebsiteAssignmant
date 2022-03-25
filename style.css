@@ -1,0 +1,95 @@
+nav
+{
+    background-color:  rgba(255, 0, 0, 0.623);
+    padding: 5px;
+    border: 1px solid yellow;
+    border-radius: 15px;
+    color: yellow;
+}
+nav ul li
+{
+    list-style-type: none;
+    background-color:blue;
+    display: inline;
+    padding: 15px;
+}
+nav ul li a 
+{
+    color: yellow;
+    text-decoration: none;
+}
+nav ul li:hover
+{
+    background-color:rgba(0, 255, 255, 0.897);
+}
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+#active
+{
+    text-decoration: underline;
+}
+.logo
+{
+    float: left; height: 60px; width: 60px;
+}
+#bigPic
+{
+    width:100%;
+}
+footer ul li
+{
+    list-style-type: none;
+    color: white;
+    display: inline;
+    padding: 15px;
+}
+footer ul li a
+{
+    color: white;
+    display: inline;
+    text-decoration: none;
+}
+footer
+{
+    clear: both;
+    border: 1px solid yellow;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+#MainContent
+{
+    float: left;
+    width: 100%;
+}
+body
+{
+    background-color: rgba(80, 133, 230, 0.801);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+section
+{
+    border: 1px solid yellow;
+    border-radius: 15px;
+    padding: 25px;
+
+}
+p
+{
+    text-align: justify;
+    padding: 12px;
+}
+main a
+{
+    color: red;
+    text-decoration:underline;
+}
