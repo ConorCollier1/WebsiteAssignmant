@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact us, send a query"/>
+    <meta name="keywords" content="Contact,Query,Email"/>
+    <style>
+        body
+        {
+            font-family: sans-serif;
+            background-image: url(../website-project/images/this-is-the-chivas-usa-soccer-field-and-also-the-galxy-s-field-at-carson-city-1544102.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 10px;
+        }
+        main
+        {
+            margin: 15px 200px;
+            padding: 20px;
+            border: black solid 1px;
+            background: white;
+            min-height: 500px;
+        }
+        header p
+        {
+            font-style: italic;
+            text-align: center;
+            font-weight: 900;
+        }
+        .required
+        {
+            font-weight: bold;
+            color: red;
+        }
+        label
+        {
+            float: left;
+            width: 112px;
+            padding-right: 10px;
+            text-align: right;
+        }
+        input
+        {
+            margin-left: 1em;
+            margin-bottom: .5em;
+            width: 300px;
+        }
+        input[type="checkbox"]{width: 15px;}
+        input[type="radio"]{width: 10px;}
+        #button, #reset
+        {
+            margin-top: .5em;
+            width: 8em;
+            background-color: orange;
+            border: 2px solid black;
+        }
+        footer ul li
+{
+    list-style-type: none;
+    color: white;
+    display: inline;
+    padding: 15px;
+}
+footer ul li a
+{
+    color: white;
+    display: inline;
+    text-decoration: none;
+}
+footer ul li a:hover
+{
+    text-decoration: underline;
+    color: red;
+}
+footer
+{
+    clear: both;
+    padding: 0;
+    margin: 0;
+    margin-left: -10px;
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    background-color: grey;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <p>Any queries or feedback please Complete and Submit</p>
+    </header>
+    <main>
+        <section>
+            <h3>Please enter the following information: </h3>
+            <form action="http://foo.com" method="get">
+            <label for="first_name">First Name:<span class="required">*</span></label>
+            <input type="text" name="first_name" id="first_name" autofocus required><br>
+            <label for="last_name">Last Name:<span class="required">*</span></label>
+            <input type="text" name="last_name" id="last_name" required><br>
+            <label for="email">Email:<span class="required">*</span></label>
+            <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+            <label for="gender">Gender:<span class="required">*</span></label>
+            <input type="radio" name="gender" id="gender" value="male" > Male
+            <input type="radio" name="gender" id="gender" value="female" > Female
+            <input type="radio" name="gender" id="gender" value="other" checked> Other <br>
+            <label for="internet">Heard of us:</label>
+            <fieldset>
+                <input type="checkbox" name="internet" id="internet" value="internet" checked> Internet <br>
+                <input type="checkbox" class="margin" id="hear" name="paper" value="paper"> Newspaper <br>
+                <input type="checkbox" class="margin" id="hear" name="friend" value="friend"> Friend <br>
+                <input type="checkbox" class="margin" id="hear" name="Add" value="Add"> Others <br>
+            </fieldset><br>
+                <label for="message">Query  :  </label>
+                <textarea cols="50" rows="6" id="message" name="message"
+                placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea><br>
+                <input type="submit" name="submit" id="button" value="Submit">
+                <input type="reset" name="reset" id="reset">
+            </form>
+            <p style="margin-left: 138px;"><span class="required">*</span><em>indicates a required field</em></p>
+        </section>
+    </main>
+    <footer><!--footer grouping og content for the bottom of the screen and will need css to place at the bottom-->
+        <ul>
+                <li><a href="index.html">Return to Home</a></li>
+        </ul>
+        <small>&copy;2022 Football Information</small>
+    </footer>
+</body>
+</html>
