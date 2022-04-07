@@ -33,7 +33,7 @@ nav ul
 }
 .logo
 {
-    float: left; height: 60px; width: 60px;
+    float: left; height: 60px; width: 75px;
 }
 #bigPic
 {
@@ -51,6 +51,10 @@ footer ul li a
     color: white;
     display: inline;
     text-decoration: none;
+}
+footer ul li a:hover
+{
+    color: red;
 }
 footer
 {
@@ -121,4 +125,35 @@ aside ol li a:hover
 {
     text-decoration: underline;
     color: red;
+}
+#flags
+{
+     width:30%;
+     height:300px;
+     float: left;
+}
+section.leagues
+{
+    max-height: 350px;
+    overflow:hidden;
+}
+.articleBorders
+{
+    margin: 5px;
+    border: 1px solid yellow;
+    border-radius: 15px;
+}
+table
+{
+    width: 65%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+    padding: 2%;
+}
+th,td,tr
+{
+    border: 1px solid black;
+    text-align: left;
 }

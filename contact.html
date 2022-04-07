@@ -54,6 +54,8 @@
             width: 8em;
             background-color: orange;
             border: 2px solid black;
+            text-decoration: none;
+            color: black;
         }
         footer ul li
 {
@@ -70,18 +72,19 @@ footer ul li a
 }
 footer ul li a:hover
 {
-    text-decoration: underline;
     color: red;
 }
 footer
 {
     clear: both;
+    border: 1px solid yellow;
+    border-radius: 15px;
     padding: 0;
     margin: 0;
-    margin-left: -10px;
-    position: fixed;
+    margin-top: 35px;
+    position: relative;
     bottom: 0px;
-    width:100%;
+    width: 100%;
     background-color: grey;
     text-align: center;
 }
@@ -123,8 +126,12 @@ footer
     </main>
     <footer><!--footer grouping og content for the bottom of the screen and will need css to place at the bottom-->
         <ul>
-                <li><a href="index.html">Return to Home</a></li>
-        </ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="players.html">Players</a></li>
+            <li><a href="clubs.html">Clubs</a></li>
+            <li><a href="leagues.html">Leagues</a></li>
+            <li id="active"><a href="contact.html">Contact Us</a></li>
+    </ul>
         <small>&copy;2022 Football Information</small>
     </footer>
 </body>
