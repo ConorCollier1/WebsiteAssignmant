@@ -27,7 +27,12 @@ nav ul
     text-align: center;
     font-size: 1.2em;
 }
-#active
+#activeTop
+{
+    text-decoration: underline;
+    background-color: darkblue;
+}
+#activeBottom
 {
     text-decoration: underline;
 }
@@ -126,7 +131,7 @@ aside ol li a:hover
     text-decoration: underline;
     color: red;
 }
-#flags
+.flags
 {
      width:30%;
      height:300px;

@@ -7,9 +7,9 @@ Modifications :-->
 <html lang="en">
 <head>
     <meta charset="uft-8" /> <!--8 bit charachter encoding capable of encoding all possible charachters-->
-    <meta name="Description" content="information about football players and clubs --- College project">
-    <meta name="keywords"content="club,league,football">
-    <title> Football Information - Players </title>
+    <meta name="Description" content="information about different football leagues --- College project">
+    <meta name="keywords" content="club,league,football,spain,england,germany,france,italy">
+    <title> Football Information - Leagues </title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" type="image/png" href="images/favicon.ico" sizes="16x16" />
 
@@ -18,19 +18,19 @@ Modifications :-->
   
         <nav>
             <img class="logo" src="images/logo.jpg" alt="logo">
-            <h1> Football Information - Players</h1>
+            <h1> Football Information - Leagues</h1>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="players.html">Players</a></li>
                 <li><a href="clubs.html">Clubs</a></li>
-                <li id="active"><a href="leagues.html">Leagues</a></li>
+                <li id="activeTop"><a href="leagues.html">Leagues</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     <main id="MainContent">
           <section class="leagues">
               <h2>LaLiga - Spain</h2>
-              <img src="images/spanish-flag-1-1444425.jpg" id="flags">
+              <img src="images/spanish-flag-1-1444425.jpg" class="flags" alt="spanish flag">
               <p>
                 La Liga (Campeonato Nacional de Liga de Primera División) is the name of the Spanish football league and has existed since 1929. The first division is called Primera División (which is commonly referred to La Liga) and the second is called Segunda División. Since 1997 are 20 clubs participating in the top league of La Liga.
                      <a href="https://www.footballhistory.org/league/la-liga.html">
@@ -87,7 +87,7 @@ Modifications :-->
           </section>
           <section class="leagues">
             <h2>Premier League - England</h2>
-            <img src="images/the-flag-of-st-george-1492546.jpg" id="flags">
+            <img src="images/the-flag-of-st-george-1492546.jpg" class="flags" alt="English flag">
             <p>
                 The Premier League began in 1992 preceded by the First Division of the Football League that was founded in 1888. Today it holds the status of the best football league in the world. Even though the top clubs in England don’t win the biggest European Cups with same frequency as the top clubs in Spain, the Premier League is still considered to contain the toughest competition overall. (Premier League was earlier sponsored by Barclays Bank, thus the reason for its previous official name Barclays Premier League.)
                    <a href="https://www.footballhistory.org/league/premier-league.html">
@@ -144,7 +144,7 @@ Modifications :-->
           </section>
         <section class="leagues">
             <h2>Serie A - Italy</h2>
-            <img src="images/rome-1203847.jpg" id="flags">
+            <img src="images/rome-1203847.jpg" class="flags" alt="Italian flag">
             <p>
                 Serie A (Lega Nazionale Professionisti Serie A) is the name of the top Italian football league and has existed since 1898 and since 1929 as structured today. Since 1961, the winner gets the trophy called Coppa Campioni d'Italia. When the league was established it included 18 clubs, but since when it has decreased and expanded many times: from 16 as minimum to 21 clubs as maximum (since the 2004-2005 season, 20 clubs has been included). Today the division is also referred to Lega Serie A, or more commonly only Serie A.
                    <a href="https://www.footballhistory.org/league/serie-a.html">
@@ -201,7 +201,7 @@ Modifications :-->
         </section>
         <section class="leagues">
             <h2>Bundesliga - Germany</h2>
-            <img src="images/german-flag-1142225.jpg" id="flags">
+            <img src="images/german-flag-1142225.jpg" class="flags" alt="German flag">
             <p>
                 In 1963, the Bundesliga, the top-tier of the German football league system was established by German Football Association (the league is since 2001 organized by Deutsche Fußball Liga). The most merited teams from the different German regions were for the first time in the grouped in one division.
                    <a href="https://www.footballhistory.org/league/bundesliga.html">
@@ -258,7 +258,7 @@ Modifications :-->
         </section>
         <section class="leagues">
             <h2>Ligue 1 - France</h2>
-            <img src="images/flag-french-1444698.jpg" id="flags">
+            <img src="images/flag-french-1444698.jpg" class="flags" alt="French flag">
             <p>
                 Ligue 1 has been the name of the top division in French football league since 2002, before that it was called Division 1. The league in its original form was first inaugurated in 1932, two years after professionalism in French football became legal.
                    <a href="https://www.footballhistory.org/league/ligue-1.html">
@@ -313,13 +313,14 @@ Modifications :-->
                 </tr>
             </table>
         </section>
+    </main>
          
     <footer><!--footer grouping og content for the bottom of the screen and will need css to place at the bottom-->
         <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="players.html">Players</a></li>
                 <li><a href="clubs.html">Clubs</a></li>
-                <li id="active"><a href="leagues.html">Leagues</a></li>
+                <li id="activeBottom"><a href="leagues.html">Leagues</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
         </ul>
         <small>&copy;2022 Football Information</small>
